@@ -15,7 +15,7 @@ float alturaMedia(float height, int quantity){
 }
 
 //Função que agrupa atletas com mais de 1,5m
-int calculoAtletasAltos(float height){
+int calculoAtletasAltos(){
     if(altura > 1.5){
         atletasAltos = atletasAltos + 1;
     }
@@ -29,11 +29,11 @@ int main(){
         scanf("%f", &altura);
         somaAlturas = somaAlturas + altura;
         qtd = qtd + 1;
-        atletasAltos = calculoAtletasAltos(altura);
+        atletasAltos = calculoAtletasAltos();
     }
 
     mediaAltura = alturaMedia(somaAlturas, qtd);
-    //atletasAltos já estão com o valor desejado
+    //atletasAltos já estão com o valor almejado
 
     printf("\nMedia de altura dos %i atletas = %f cm", qtd, mediaAltura);
     printf("\nNumero de atletas com altura maior que 1,5m: %i", atletasAltos);
