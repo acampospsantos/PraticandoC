@@ -33,4 +33,4 @@ int main(){
     return 0;
 }
 
-//Praticando: Modularização, Impressão dos valores, Laço(For)
+//Praticando: Modularização, Impressão dos valores, Uso de Laço(For)
