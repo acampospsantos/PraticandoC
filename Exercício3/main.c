@@ -3,7 +3,7 @@
 //Variáveis
 float altura;
 float somaAlturas=0;
-int qtd=1;
+int qtd=0;
 float mediaAltura;
 int atletasAltos=0;
 
@@ -25,8 +25,8 @@ int calculoAtletasAltos(float height){
 int main(){
     int i;
     for(i=1; i <= 8; i = i + 1){
-        printf("Digite a altura do %i º atleta: ", i);
-        scanf("%f", altura);
+        printf("Digite a altura do %i atleta: ", i);
+        scanf("%f", &altura);
         somaAlturas = somaAlturas + altura;
         qtd = qtd + 1;
         atletasAltos = calculoAtletasAltos(altura);
@@ -35,8 +35,8 @@ int main(){
     mediaAltura = alturaMedia(somaAlturas, qtd);
     //atletasAltos já estão com o valor desejado
 
-    printf("Média de altura dos %i atletas = %f cm", i, mediaAltura);
-    printf("Número de atletas com altura maior que 1,5m: %i", atletasAltos);
+    printf("\nMedia de altura dos %i atletas = %f cm", qtd, mediaAltura);
+    printf("\nNumero de atletas com altura maior que 1,5m: %i", atletasAltos);
 
     return 0;
 }
