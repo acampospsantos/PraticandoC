@@ -1,7 +1,7 @@
 # Aprendendo C
 
 ## Informações e Características da Linguagem:
-- Linguagem estruturada e de alto nível --> **Não é orientada a Objetos**
+- Linguagem **estruturada** e de alto nível --> **Não é orientada a Objetos**
 - Controle dos endereços de memória --> Melhora gerenciamento de memória
 - Extremamente rápida
 - Usada em Sistemas Embarcados/Microcontroladores
