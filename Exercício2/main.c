@@ -23,7 +23,7 @@ int verificacaoMenor(int num){
 
 int main(){
     int i;
-    for (i = 0; i < 4; i = i + 1) { // 0 - 15
+    for (i = 0; i < 16; i = i + 1) { // 0 - 15
         printf("Digite o %i numero: ", i);
         scanf("%i", &numero);
         if(i==0){ //Condição para o primeiro laço
