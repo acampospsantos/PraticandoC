@@ -25,9 +25,13 @@ int verificacaoMenor(int num){
 
 int main(){
     int i=0; //Inicialização
-    while(i < 16){ //Condição
+    while(i < 4){ //Condição
         printf("Digite o %i numero: ", i+1); 
         scanf("%i", &numero);
+        while(numero < 100){ //Restringindo/Obrigando usuário a digitar números maiores que 100
+            printf("Digite o %i numero novamente: ", i+1);
+            scanf("%i", &numero);
+        }
         if (i==0){ //Condição para o primeiro laço
             maiorNumero = numero;
             menorNumero = numero;
