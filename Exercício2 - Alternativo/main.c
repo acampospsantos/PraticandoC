@@ -24,8 +24,8 @@ int verificacaoMenor(int num){
 }
 
 int main(){
-    int i=0;
-    while(i < 16){
+    int i=0; //Inicialização
+    while(i < 16){ //Condição
         printf("Digite o %i numero: ", i+1); 
         scanf("%i", &numero);
         if (i==0){ //Condição para o primeiro laço
@@ -34,7 +34,7 @@ int main(){
         }
         maiorNumero = verificacaoMaior(numero);
         menorNumero = verificacaoMenor(numero);
-        i = i + 1;
+        i = i + 1; //Incremento
     }
     printf("\n Maior numero = %i", maiorNumero);
     printf("\n Menor numero = %i", menorNumero);
