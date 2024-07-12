@@ -5,21 +5,27 @@ int antecessor;
 int sucessor;
 
 int verificaAntecessor(int num){
-    num = num - 1;
+    int numero;
+    numero = num - 1;
+    return numero;
 }
 
 int verificaSucessor(int num){
-    num = num + 1; 
+    int numero;
+    numero = num + 1;
+    return numero; 
 }
 
 int main(){
     int numero;
-
-    printf("Digite um número inteiro: ");
+    printf("Digite um numero inteiro: ");
     scanf("%i", &numero);
 
     antecessor = verificaAntecessor(numero);
     sucessor = verificaSucessor(numero);
+
+    printf("\n Sucessor de %i => %i", numero, sucessor);
+    printf("\n Antecessor de %i => %i", numero, antecessor);
 
     return 0;
 }
