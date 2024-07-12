@@ -45,3 +45,5 @@ int main(){
 
     return 0;
 }
+
+// Praticando: Modularização, Entrada de dados, Impressão dos valores, Uso de Laço(while)
