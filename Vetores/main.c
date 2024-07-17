@@ -46,7 +46,7 @@ int vetorManual(){
 
 //O vetor é preenchido de forma automática pelo laço for
 int automatizarVetor(){
-    int v[5] = {10, 20, 30, 40, 50}; //v tem tamanho 5
+    int v[5] = {10, 20, 30, 40, 50}; //Lista de Inicialização --> v tem tamanho 5
     int i; //contador
     float soma = 0;
     float media;
