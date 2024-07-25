@@ -32,3 +32,11 @@
 ## Funções - Modularização
 
 ## Vetores e Matrizes
+
+## Struct
+- Estrutura de dados composto -> define fisicamente uma lista de variáveis agrupadas sob um nome em um bloco de memória
+- Todas as variáveis conseguem ser acessadas por meio de um único ponteiro
+- Maneira de agrupar diversas variáveis relacionadas em um só lugar
+- Objetivo: Facilitar o acesso, como também melhorar o entendimento da arquitetura do programa.
+- Por exemplo, se quisermos criar um sistema que cadastre uma pessoa, é recomendável criar um Struct com todas as informações necessárias para esse cadastro, algo como, nome, endereço, idade, altura…
+- Em outras palavras, é o mais próxima de Orientação a Objetos em C
